@@ -4,12 +4,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
-public class BlogueController {
+public class BlogController {
 
-    @GetMapping("/blogue")
-    public String blogue(){
+    @GetMapping("/blog")
+    public String blog(){
 
-        return "blogue";
+        return "blog";
 
     }
 
